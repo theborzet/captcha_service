@@ -2,14 +2,6 @@
 
 Этот проект представляет собой сервис с CAPTCHA и drag-and-drop интерфейсом, реализованный с использованием Go, gRPC и простого фронтенда на HTML + Python HTTP-сервере.
 
-## Структура проекта
-
-- `backend/` — Backend-сервис CAPTCHA (Go + gRPC)
-- `frontend/` — Простой drag-and-drop интерфейс (HTML)
-- `idl/proto/` — gRPC-протоколы
-- `scripts/` — Скрипты генерации кода из `.proto`
-- `Dockerfile` и `docker-compose.yml` — для контейнеризации
-
 ## Быстрый старт
 
 ## Установка зависимостей
